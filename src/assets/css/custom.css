@@ -1,36 +1,46 @@
-h1, h2, h3, h4 {
-    font-family: 'Indie Flower', cursive; 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Indie Flower', cursive;
     text-align: center;
 }
+
 h1 {
     font-size: 50px;
 }
+
 table {
-    width: 450px; 
+    width: 450px;
     height: 450px;
     border-style: ridge;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 tr {
-    width: 450px; 
+    width: 450px;
     height: 150px;
     text-align: center;
 }
-th, td {
-    width: 450px; 
+
+th,
+td {
+    width: 450px;
     height: 150px;
     text-align: center;
     cursor: pointer;
     border-style: ridge;
     background-color: gray;
 }
+
 section.controllPanel {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 h1.won {
     font-size: 30px;
     margin-top: 0em;

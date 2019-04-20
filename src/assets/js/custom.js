@@ -4,6 +4,7 @@ function totopFunction() {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
 }
+
 function resetGame() {
     for (i = 1; i < 10; i++) {
         let element = document.getElementById(i)
@@ -16,6 +17,7 @@ function resetGame() {
     firtPlayer = true
     document.getElementById("won").innerHTML = "Select to start:"
 }
+
 function cardPressed(cardID) {
     let info = document.getElementById("won")
     if (firtPlayer) {
@@ -41,6 +43,7 @@ function cardPressed(cardID) {
     }
     firtPlayer = !firtPlayer
 }
+
 function check() {
     let matrix = [
         [1, 2, 3],
@@ -70,7 +73,8 @@ function check() {
         }
     }
 }
-function blockAllSquares(){
+
+function blockAllSquares() {
     document.getElementById("won").innerHTML = "HOLD"
     for (i = 1; i < 10; i++) {
         let element = document.getElementById(i)
