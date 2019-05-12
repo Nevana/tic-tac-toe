@@ -62,11 +62,10 @@ function check() {
         let winnerBanner = document.getElementById("won")
         if (firstSquare.getAttribute('value') === secondSquare.getAttribute('value') && secondSquare.getAttribute('value') === thirdSquare.getAttribute('value')) {
             if (firstSquare.getAttribute('value') != "default" && secondSquare.getAttribute('value') != "default" && thirdSquare.getAttribute('value') != "default") {
+                blockAllSquares()
                 if (firtPlayer) {
-                    blockAllSquares()
                     winnerBanner.innerHTML = "Player 1 won!"
                 } else {
-                    blockAllSquares()
                     winnerBanner.innerHTML = "Player 2 won!"
                 }
             }
