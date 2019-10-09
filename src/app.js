@@ -8,4 +8,4 @@ app.get('/', function(req,res) {
     res.sendFile(__dirname + '/views/index.html')
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Example app listening on localhost:${port}!`))
